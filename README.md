@@ -35,9 +35,9 @@ classDiagram
       -string description
     }
 
-    User "1" *-- "1" Account : account
-    User "1" *-- "N" Card : card
-    User "1" *-- "1" Feature : features
-    User "1" *-- "N" News : news
+    User "1" *-- "1" Account
+    User "1" *-- "N" Card
+    User "1" *-- "1" Feature
+    User "1" *-- "N" News
 
 ```
